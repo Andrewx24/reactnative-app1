@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { Slot } from 'expo-router'
-
+import  "../app/gloabl.css"
 const Rootlayout = () => {
   return (
     <View style={styles.container}>
