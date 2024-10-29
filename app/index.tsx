@@ -11,6 +11,7 @@ export default function Index() {
     >
       <Text>First Line of Code.</Text>
       <Text>Second Line of Code</Text>
+      <Text>Third Line of Code</Text>
     </View>
   );
 }

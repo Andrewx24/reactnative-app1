@@ -1,7 +1,7 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import { Slot } from 'expo-router'
-import  "../app/gloabl.css"
+import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { Slot } from 'expo-router';
+
 const Rootlayout = () => {
   return (
     <View style={styles.container}>
@@ -9,10 +9,10 @@ const Rootlayout = () => {
       <Slot name="root" />
       <Text>_layout</Text>
     </View>
-  )
-}
+  );
+};
 
-export default Rootlayout
+export default Rootlayout;
 
 const styles = StyleSheet.create({
   container: {
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-})
+});

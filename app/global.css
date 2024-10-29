@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer utilities{
+    Text{
+        @apply text-lg text-blue-500;
+    }
+}
